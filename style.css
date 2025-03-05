@@ -1,6 +1,6 @@
 /* Nền thanh xuân học đường */
 body {
-    background: url('https://i.imgur.com/Rb1MUDH.jpg') no-repeat center center fixed;
+    background: url('background.jpg') no-repeat center center fixed;
     background-size: cover;
     font-family: 'Poppins', sans-serif;
     display: flex;
@@ -13,38 +13,40 @@ body {
 /* Hộp chứa nội dung */
 .container {
     text-align: center;
-    background: rgba(255, 255, 255, 0.8); /* Hộp trắng mờ nhẹ */
+    background-color: rgba(248, 237, 235, 0.8);
+    border: 3px solid #efa7a7;
+    border-radius: 12px;
     padding: 20px;
-    border-radius: 15px;
-    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Tiêu đề có hiệu ứng */
 .title {
     font-size: 28px;
     font-weight: bold;
-    color: #ff4081; /* Hồng pastel */
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    color: #d72638; /* Đỏ cherry */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     animation: fadeIn 1s ease-in-out;
 }
 
 /* Nút bấm xịn hơn */
 button {
-    background-color: #ff4081;
+    background: #b7410e;
     color: white;
-    border: none;
-    padding: 12px 20px;
+    border: 2px solid #8b2e06;
+    border-radius: 8px;
+    padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
     border-radius: 8px;
     font-weight: bold;
     transition: all 0.3s ease-in-out;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Hover cho nút */
 button:hover {
-    background-color: #e73370;
+    background-color: #8b2e06;
     transform: scale(1.05);
 }
 
